@@ -77,6 +77,9 @@ usuario seleccionado: ${usuarioSeleccionado.name}`);
           //destructuracion de objetos para ver el resto de posts  " https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
           comentarios: comentarios.filter((comentario) => 
          //filtracion comentarios con comentarios.postID
+        //   "postId": 99,
+        //   "id": 495,
+        //   "name": "dolor ut ut aut molestiae esse et tempora numquam",
           comentario.postId === post.id),
         }));
 
